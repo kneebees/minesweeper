@@ -1,0 +1,27 @@
+button {
+  padding: 10px 13px;
+  font-size: 10px;
+  border: solid black;
+  background-color: white;
+  margin-top: 4px;
+  margin-left: 2px;
+  color: white;
+}
+
+#bomb:active {
+  background-color: red;
+}
+
+.row:hover {
+  background-color: orange;
+  color: orange;
+}
+
+div:hover button{
+  background-color: yellow;
+}
+
+.row:active {
+  background-color: green;
+  color: white;
+}
